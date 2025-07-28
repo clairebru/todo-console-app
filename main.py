@@ -115,10 +115,6 @@ def main():
     else:
         print(f"Commande inconnue : {command}")
         print("Commandes disponibles: add, list, done, delete")
-        return
     
-    if len(load_tasks()) > 0:
-        save_tasks(load_tasks())  # Save tasks after any operation
-
 if __name__ == "__main__":
     main()

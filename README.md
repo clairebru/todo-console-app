@@ -16,3 +16,5 @@ py -m pip install -r requirements.txt
 
 py main.py add "Acheter du pain"
 py main.py list
+py main.py done 2
+py main.py delete 3
